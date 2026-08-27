@@ -19,6 +19,7 @@ Required Python packages:
 - NumPy
 - openpyxl
 - pandas
+- scikit-posthoc
 - SciPy
 - seaborn
 - statsmodels
@@ -46,7 +47,19 @@ Estimates annual juvenile American shad growth, abundance indices, and mean summ
 - Statistical comparisons and regression summaries.
 - Figures showing regional patterns, growth–environment relationships, and model diagnostics.
 
-### Transition_matrix.ipynb
+### `Site_level_growth.ipynb`
+Estimates site-level juvenile American shad growth and evaluates its relationship with abundance, temperature, and sampling site using regression, the Kruskal–Wallis test, and post hoc pairwise comparisons.
+
+**Input:** 
+- `CTR_Juvenile_ASD_Master.csv` 
+- `Juvenile_Master_Length_Data_1978_2021.csv`
+  
+**Outputs:** 
+- Site-year summaries of growth, abundance, and temperature.
+- Regression and site-comparison results.
+- Figures showing growth distributions across sampling sites.
+  
+### `Transition_matrix.ipynb`
 Reconstructs juvenile American shad growth-transition matrices from monthly length-frequency distributions, estimates conditional growth and apparent
 retention, and compares direct and composed seasonal transitions.
 
@@ -58,7 +71,7 @@ retention, and compares direct and composed seasonal transitions.
 - Excel workbook containing annual and mean transition matrices.
 - Figures showing length distributions, transition matrices, annual growth and retention, and direct-versus-composed comparisons.
 
-### Bootstrap_uncertainty.ipynb
+### `Bootstrap_uncertainty.ipynb`
 This notebook quantifies sampling uncertainty in apparent retention, conditional mean growth, and prediction residuals derived from a direct July-to-September transition matrix for a selected year. Fish are resampled with replacement within each month and river region, thereby preserving the observed upper- and lower-river sample sizes in every bootstrap
 replicate. The selected year can be changed using the `BOOT_YEAR` setting.
 
