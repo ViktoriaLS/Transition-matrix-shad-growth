@@ -5,6 +5,7 @@ Code and results for reconstructing seasonal growth of juvenile American shad fr
 
 - `data.xlsx` – Dataset used throughout the analyses.
 - `Growth_abundaunce_temperature.ipynb`
+- `Site_level_growth.ipynb`
 - `Transition_matrix.ipynb`
 - `Bootstrap_uncertainty.ipynb`
 - `LICENSE`
