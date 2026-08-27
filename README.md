@@ -32,20 +32,24 @@ Open the desired notebook in Jupyter Notebook or JupyterLab and execute all cell
 
 ## Notebook descriptions. 
 (The notebooks are listed in the order in which the analyses are performed.)
+
+### `transition_matrix_analysis.ipynb`
+Reconstructs juvenile American shad growth-transition matrices from monthly length-frequency distributions, estimates conditional growth and apparent
+retention, and compares direct and composed seasonal transitions.
+**Input:** `Juvenile_Master_Length_Data_1978_2021.csv`
+
+**Outputs:** ## Outputs
+
+- CSV tables of transition diagnostics, growth, and apparent retention.
+- Excel workbook containing annual and mean transition matrices.
+- Figures showing length distributions, transition matrices, annual growth and retention, and direct-versus-composed comparisons.
+
 ### Bootstrap_uncertainty.ipynb
 This notebook quantifies sampling uncertainty in apparent retention, conditional mean growth, and prediction residuals derived from a direct July-to-September transition matrix for a selected year. Fish are resampled with replacement within each month and river region, thereby preserving the observed upper- and lower-river sample sizes in every bootstrap
 replicate. The selected year can be changed using the `BOOT_YEAR` setting.
 **Input:** `Juvenile_Master_Length_Data_1978_2021.csv`
 
 **Outputs:** 
-***Data tables***
+- CSV tables containing individual bootstrap results and summary statistics.
+- Figures showing bootstrap distributions of conditional mean growth, apparent retention, and prediction residuals, together with the relationship between retention and growth.
 
-- `bootstrap_replicates_<year>.csv`
-- `bootstrap_summary_<year>.csv`
-
-***Figures***
-
-- `bootstrap_growth_<year>.pdf`
-- `bootstrap_retention_<year>.pdf`
-- `bootstrap_L2_residual_<year>.pdf`
-- `bootstrap_retention_vs_growth_<year>.pdf`
