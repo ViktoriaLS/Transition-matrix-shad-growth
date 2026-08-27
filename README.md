@@ -9,7 +9,6 @@ Code and results for reconstructing seasonal growth of juvenile American shad fr
 - `Sensitivity and Elasticity matrices.ipynb`
 - `Impact_of_parameters_Scenarios.ipynb`
 - `Bootstrap_uncertainty.ipynb`
--  `Assignments`
 - `LICENSE`
 - `README.md`
 
