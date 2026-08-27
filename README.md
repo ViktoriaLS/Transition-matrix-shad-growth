@@ -4,10 +4,7 @@ Code and results for reconstructing seasonal growth of juvenile American shad fr
 ## Repository contents (REVISE!!)
 
 - `data.xlsx` – Dataset used throughout the analyses.
-- `Trend analysis (simple linear regression).ipynb`
-- `Constructing_Leslie_Dominant_eigenvalue_SAD.ipynb`
-- `Sensitivity and Elasticity matrices.ipynb`
-- `Impact_of_parameters_Scenarios.ipynb`
+- `Transition_matrix.ipynb`
 - `Bootstrap_uncertainty.ipynb`
 - `LICENSE`
 - `README.md`
@@ -33,7 +30,7 @@ Open the desired notebook in Jupyter Notebook or JupyterLab and execute all cell
 ## Notebook descriptions. 
 (The notebooks are listed in the order in which the analyses are performed.)
 
-### Transition_matrix_analysis.ipynb
+### Transition_matrix.ipynb
 Reconstructs juvenile American shad growth-transition matrices from monthly length-frequency distributions, estimates conditional growth and apparent
 retention, and compares direct and composed seasonal transitions.
 
