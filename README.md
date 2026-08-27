@@ -4,6 +4,7 @@ Code and results for reconstructing seasonal growth of juvenile American shad fr
 ## Repository contents (REVISE!!)
 
 - `data.xlsx` – Dataset used throughout the analyses.
+- `Growth_abundaunce_temperature.ipynb`
 - `Transition_matrix.ipynb`
 - `Bootstrap_uncertainty.ipynb`
 - `LICENSE`
@@ -29,6 +30,18 @@ Open the desired notebook in Jupyter Notebook or JupyterLab and execute all cell
 
 ## Notebook descriptions. 
 (The notebooks are listed in the order in which the analyses are performed.)
+
+### Growth_abundaunce_temperature.ipynb
+Estimates annual juvenile American shad growth, abundance indices, and mean summer temperature; compares upper- and lower-river patterns; and evaluates associations between growth, abundance, and temperature.
+
+**Input:** 
+- `CTR_Juvenile_ASD_Master.csv` — juvenile abundance counts and temperature by year, month, and site.
+- `Juvenile_Master_Length_Data_1978_2021.csv` — individual fish lengths by date and sampling site.
+
+**Outputs:** 
+- Data tables of annual abundance, mean temperature, and growth estimates.
+- Statistical comparisons and regression summaries.
+- Figures showing regional patterns, growth–environment relationships, and model diagnostics.
 
 ### Transition_matrix.ipynb
 Reconstructs juvenile American shad growth-transition matrices from monthly length-frequency distributions, estimates conditional growth and apparent
