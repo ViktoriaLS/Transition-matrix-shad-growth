@@ -1,9 +1,7 @@
 # Transition-matrix-shad-growth
 Code and results for reconstructing seasonal growth of juvenile American shad from length-frequency data using transition matrices.
 
-## Repository contents (REVISE!!)
-
-- `data.xlsx` – Dataset used throughout the analyses.
+## Repository contents 
 - `Growth_abundaunce_temperature.ipynb`
 - `Site_level_growth.ipynb`
 - `Transition_matrix.ipynb`
@@ -25,9 +23,10 @@ Required Python packages:
 - seaborn
 - statsmodels
 
-  
-## Data description (REVISE)
-The repository contains the Excel workbook `data.xlsx`, which includes the datasets used throughout the analyses. The data are based on long-term monitoring of female American shad conducted by the Connecticut Department of Energy and Environmental Protection (CT DEEP). For the purposes of this project, data were organized into worksheets corresponding to the analyses performed in the notebooks.
+## Data availability
+
+The underlying juvenile American shad monitoring data were collected by the Connecticut Department of Energy and Environmental Protection (CT DEEP) and currently are
+not included in this repository. The repository provides the analysis code and derived results used in the study. Data inquiries may be directed to the corresponding author. Access is subject to CT DEEP data-sharing policies. 
 
 ## Reproducing the content
 Each notebook is independent and can be run separately.
