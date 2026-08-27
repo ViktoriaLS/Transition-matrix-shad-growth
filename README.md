@@ -15,11 +15,14 @@ The analyses were developed using Python 3 and Jupyter Notebook (Anaconda distri
 
 Required Python packages:
 
-- numpy
-- pandas
 - matplotlib
-- scipy
+- NumPy
 - openpyxl
+- pandas
+- SciPy
+- seaborn
+- statsmodels
+
   
 ## Data description (REVISE)
 The repository contains the Excel workbook `data.xlsx`, which includes the datasets used throughout the analyses. The data are based on long-term monitoring of female American shad conducted by the Connecticut Department of Energy and Environmental Protection (CT DEEP). For the purposes of this project, data were organized into worksheets corresponding to the analyses performed in the notebooks.
