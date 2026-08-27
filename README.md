@@ -34,7 +34,7 @@ Open the desired notebook in Jupyter Notebook or JupyterLab and execute all cell
 ## Notebook descriptions. 
 (The notebooks are listed in the order in which the analyses are performed.)
 
-### Growth_abundaunce_temperature.ipynb
+### `Growth_abundaunce_temperature.ipynb`
 Estimates annual juvenile American shad growth, abundance indices, and mean summer temperature; compares upper- and lower-river patterns; and evaluates associations between growth, abundance, and temperature.
 
 **Input:** 
