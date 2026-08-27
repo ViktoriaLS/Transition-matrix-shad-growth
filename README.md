@@ -33,9 +33,10 @@ Open the desired notebook in Jupyter Notebook or JupyterLab and execute all cell
 ## Notebook descriptions. 
 (The notebooks are listed in the order in which the analyses are performed.)
 
-### `transition_matrix_analysis.ipynb`
+### Transition_matrix_analysis.ipynb
 Reconstructs juvenile American shad growth-transition matrices from monthly length-frequency distributions, estimates conditional growth and apparent
 retention, and compares direct and composed seasonal transitions.
+
 **Input:** `Juvenile_Master_Length_Data_1978_2021.csv`
 
 **Outputs:** ## Outputs
@@ -47,6 +48,7 @@ retention, and compares direct and composed seasonal transitions.
 ### Bootstrap_uncertainty.ipynb
 This notebook quantifies sampling uncertainty in apparent retention, conditional mean growth, and prediction residuals derived from a direct July-to-September transition matrix for a selected year. Fish are resampled with replacement within each month and river region, thereby preserving the observed upper- and lower-river sample sizes in every bootstrap
 replicate. The selected year can be changed using the `BOOT_YEAR` setting.
+
 **Input:** `Juvenile_Master_Length_Data_1978_2021.csv`
 
 **Outputs:** 
